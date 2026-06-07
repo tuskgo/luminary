@@ -27,4 +27,4 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: docs/build
-          cname: repo1.mydomain.com
+          cname: luminary.tuskgo.com

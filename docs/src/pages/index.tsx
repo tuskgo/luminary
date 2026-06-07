@@ -21,7 +21,13 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
+            Get Started
+          </Link>
+          <Link
+            className="button button--outline button--lg"
+            to="https://github.com/tuskgo/luminary"
+            style={{marginLeft: '1rem', borderColor: 'rgba(255,255,255,0.4)', color: '#fff'}}>
+            View on GitHub
           </Link>
         </div>
       </div>
@@ -33,8 +39,8 @@ export default function Home(): ReactNode {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title="Open-source intelligence platform"
+      description="Luminary is an open-source intelligence platform for modern teams. Built by Tuskgo.">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
